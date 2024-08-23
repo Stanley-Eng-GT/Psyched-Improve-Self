@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87049C6D2AAC7588006B8898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049C6C2AAC7588006B8898 /* AppDelegate.swift */; };
+		87049C6F2AAC7588006B8898 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049C6E2AAC7588006B8898 /* SceneDelegate.swift */; };
+		87049C712AAC7588006B8898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049C702AAC7588006B8898 /* ViewController.swift */; };
+		87049C742AAC7588006B8898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87049C722AAC7588006B8898 /* Main.storyboard */; };
+		87049C762AAC7589006B8898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87049C752AAC7589006B8898 /* Assets.xcassets */; };
+		87049C792AAC7589006B8898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87049C772AAC7589006B8898 /* LaunchScreen.storyboard */; };
+		87049C842AAC7589006B8898 /* Psyched_Improve_SelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049C832AAC7589006B8898 /* Psyched_Improve_SelfTests.swift */; };
+		87049C8E2AAC7589006B8898 /* Psyched_Improve_SelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049C8D2AAC7589006B8898 /* Psyched_Improve_SelfUITests.swift */; };
+		87049C902AAC7589006B8898 /* Psyched_Improve_SelfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049C8F2AAC7589006B8898 /* Psyched_Improve_SelfUITestsLaunchTests.swift */; };
+		8758DEEA2C731CA200193616 /* RulesStruc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758DEE92C731CA200193616 /* RulesStruc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87049C802AAC7589006B8898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87049C612AAC7588006B8898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87049C682AAC7588006B8898;
+			remoteInfo = "Psyched Improve Self";
+		};
+		87049C8A2AAC7589006B8898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87049C612AAC7588006B8898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87049C682AAC7588006B8898;
+			remoteInfo = "Psyched Improve Self";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87049C692AAC7588006B8898 /* Psyched Improve Self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psyched Improve Self.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87049C6C2AAC7588006B8898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87049C6E2AAC7588006B8898 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87049C702AAC7588006B8898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87049C732AAC7588006B8898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87049C752AAC7589006B8898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87049C782AAC7589006B8898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87049C7A2AAC7589006B8898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87049C7F2AAC7589006B8898 /* Psyched Improve SelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psyched Improve SelfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87049C832AAC7589006B8898 /* Psyched_Improve_SelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psyched_Improve_SelfTests.swift; sourceTree = "<group>"; };
+		87049C892AAC7589006B8898 /* Psyched Improve SelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psyched Improve SelfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87049C8D2AAC7589006B8898 /* Psyched_Improve_SelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psyched_Improve_SelfUITests.swift; sourceTree = "<group>"; };
+		87049C8F2AAC7589006B8898 /* Psyched_Improve_SelfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psyched_Improve_SelfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8758DEE92C731CA200193616 /* RulesStruc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesStruc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87049C662AAC7588006B8898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87049C7C2AAC7589006B8898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87049C862AAC7589006B8898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87049C602AAC7588006B8898 = {
+			isa = PBXGroup;
+			children = (
+				87049C6B2AAC7588006B8898 /* Psyched Improve Self */,
+				87049C822AAC7589006B8898 /* Psyched Improve SelfTests */,
+				87049C8C2AAC7589006B8898 /* Psyched Improve SelfUITests */,
+				87049C6A2AAC7588006B8898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87049C6A2AAC7588006B8898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87049C692AAC7588006B8898 /* Psyched Improve Self.app */,
+				87049C7F2AAC7589006B8898 /* Psyched Improve SelfTests.xctest */,
+				87049C892AAC7589006B8898 /* Psyched Improve SelfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87049C6B2AAC7588006B8898 /* Psyched Improve Self */ = {
+			isa = PBXGroup;
+			children = (
+				87049C6C2AAC7588006B8898 /* AppDelegate.swift */,
+				87049C6E2AAC7588006B8898 /* SceneDelegate.swift */,
+				87049C702AAC7588006B8898 /* ViewController.swift */,
+				87049C722AAC7588006B8898 /* Main.storyboard */,
+				87049C752AAC7589006B8898 /* Assets.xcassets */,
+				87049C772AAC7589006B8898 /* LaunchScreen.storyboard */,
+				87049C7A2AAC7589006B8898 /* Info.plist */,
+				8758DEE92C731CA200193616 /* RulesStruc.swift */,
+			);
+			path = "Psyched Improve Self";
+			sourceTree = "<group>";
+		};
+		87049C822AAC7589006B8898 /* Psyched Improve SelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				87049C832AAC7589006B8898 /* Psyched_Improve_SelfTests.swift */,
+			);
+			path = "Psyched Improve SelfTests";
+			sourceTree = "<group>";
+		};
+		87049C8C2AAC7589006B8898 /* Psyched Improve SelfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87049C8D2AAC7589006B8898 /* Psyched_Improve_SelfUITests.swift */,
+				87049C8F2AAC7589006B8898 /* Psyched_Improve_SelfUITestsLaunchTests.swift */,
+			);
+			path = "Psyched Improve SelfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87049C682AAC7588006B8898 /* Psyched Improve Self */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87049C932AAC7589006B8898 /* Build configuration list for PBXNativeTarget "Psyched Improve Self" */;
+			buildPhases = (
+				87049C652AAC7588006B8898 /* Sources */,
+				87049C662AAC7588006B8898 /* Frameworks */,
+				87049C672AAC7588006B8898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Psyched Improve Self";
+			productName = "Psyched Improve Self";
+			productReference = 87049C692AAC7588006B8898 /* Psyched Improve Self.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87049C7E2AAC7589006B8898 /* Psyched Improve SelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87049C962AAC7589006B8898 /* Build configuration list for PBXNativeTarget "Psyched Improve SelfTests" */;
+			buildPhases = (
+				87049C7B2AAC7589006B8898 /* Sources */,
+				87049C7C2AAC7589006B8898 /* Frameworks */,
+				87049C7D2AAC7589006B8898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87049C812AAC7589006B8898 /* PBXTargetDependency */,
+			);
+			name = "Psyched Improve SelfTests";
+			productName = "Psyched Improve SelfTests";
+			productReference = 87049C7F2AAC7589006B8898 /* Psyched Improve SelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87049C882AAC7589006B8898 /* Psyched Improve SelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87049C992AAC7589006B8898 /* Build configuration list for PBXNativeTarget "Psyched Improve SelfUITests" */;
+			buildPhases = (
+				87049C852AAC7589006B8898 /* Sources */,
+				87049C862AAC7589006B8898 /* Frameworks */,
+				87049C872AAC7589006B8898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87049C8B2AAC7589006B8898 /* PBXTargetDependency */,
+			);
+			name = "Psyched Improve SelfUITests";
+			productName = "Psyched Improve SelfUITests";
+			productReference = 87049C892AAC7589006B8898 /* Psyched Improve SelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87049C612AAC7588006B8898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					87049C682AAC7588006B8898 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					87049C7E2AAC7589006B8898 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 87049C682AAC7588006B8898;
+					};
+					87049C882AAC7589006B8898 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 87049C682AAC7588006B8898;
+					};
+				};
+			};
+			buildConfigurationList = 87049C642AAC7588006B8898 /* Build configuration list for PBXProject "Psyched Improve Self" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87049C602AAC7588006B8898;
+			productRefGroup = 87049C6A2AAC7588006B8898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87049C682AAC7588006B8898 /* Psyched Improve Self */,
+				87049C7E2AAC7589006B8898 /* Psyched Improve SelfTests */,
+				87049C882AAC7589006B8898 /* Psyched Improve SelfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87049C672AAC7588006B8898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87049C792AAC7589006B8898 /* LaunchScreen.storyboard in Resources */,
+				87049C762AAC7589006B8898 /* Assets.xcassets in Resources */,
+				87049C742AAC7588006B8898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87049C7D2AAC7589006B8898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87049C872AAC7589006B8898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87049C652AAC7588006B8898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87049C712AAC7588006B8898 /* ViewController.swift in Sources */,
+				87049C6D2AAC7588006B8898 /* AppDelegate.swift in Sources */,
+				87049C6F2AAC7588006B8898 /* SceneDelegate.swift in Sources */,
+				8758DEEA2C731CA200193616 /* RulesStruc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87049C7B2AAC7589006B8898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87049C842AAC7589006B8898 /* Psyched_Improve_SelfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87049C852AAC7589006B8898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87049C902AAC7589006B8898 /* Psyched_Improve_SelfUITestsLaunchTests.swift in Sources */,
+				87049C8E2AAC7589006B8898 /* Psyched_Improve_SelfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87049C812AAC7589006B8898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87049C682AAC7588006B8898 /* Psyched Improve Self */;
+			targetProxy = 87049C802AAC7589006B8898 /* PBXContainerItemProxy */;
+		};
+		87049C8B2AAC7589006B8898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87049C682AAC7588006B8898 /* Psyched Improve Self */;
+			targetProxy = 87049C8A2AAC7589006B8898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87049C722AAC7588006B8898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87049C732AAC7588006B8898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87049C772AAC7589006B8898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87049C782AAC7589006B8898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87049C912AAC7589006B8898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87049C922AAC7589006B8898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87049C942AAC7589006B8898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psyched Improve Self/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Psyched.Psyched-Improve-Self";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87049C952AAC7589006B8898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psyched Improve Self/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Psyched.Psyched-Improve-Self";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87049C972AAC7589006B8898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Psyched.Psyched-Improve-SelfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psyched Improve Self.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Psyched Improve Self";
+			};
+			name = Debug;
+		};
+		87049C982AAC7589006B8898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Psyched.Psyched-Improve-SelfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psyched Improve Self.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Psyched Improve Self";
+			};
+			name = Release;
+		};
+		87049C9A2AAC7589006B8898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Psyched.Psyched-Improve-SelfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Psyched Improve Self";
+			};
+			name = Debug;
+		};
+		87049C9B2AAC7589006B8898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Psyched.Psyched-Improve-SelfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Psyched Improve Self";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87049C642AAC7588006B8898 /* Build configuration list for PBXProject "Psyched Improve Self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87049C912AAC7589006B8898 /* Debug */,
+				87049C922AAC7589006B8898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87049C932AAC7589006B8898 /* Build configuration list for PBXNativeTarget "Psyched Improve Self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87049C942AAC7589006B8898 /* Debug */,
+				87049C952AAC7589006B8898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87049C962AAC7589006B8898 /* Build configuration list for PBXNativeTarget "Psyched Improve SelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87049C972AAC7589006B8898 /* Debug */,
+				87049C982AAC7589006B8898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87049C992AAC7589006B8898 /* Build configuration list for PBXNativeTarget "Psyched Improve SelfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87049C9A2AAC7589006B8898 /* Debug */,
+				87049C9B2AAC7589006B8898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87049C612AAC7588006B8898 /* Project object */;
+}
